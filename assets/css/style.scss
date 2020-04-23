@@ -46,5 +46,24 @@ section {
 #banner .fork {
   color: #333;
   background-color: #e6e6e6;
-  border-color: #adadad;
+  border: 1px solid #adadad;
+}
+
+#banner .button:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #f3f3f3;
+  line-height: 1.1;
+}
+
+a {
+  color: #2b7bb9;
+}
+
+a:hover {
+  color: #3b94d9;
 }
