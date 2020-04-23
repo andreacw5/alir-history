@@ -18,19 +18,33 @@ header {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-.wrapper > nav > ul > li {
-  color: #fff;
+nav ul li.tag-h1 a {
+    color: #fff;
 }
 
 #banner {
   background-color: rgba(165, 165, 165, 0.2);
   box-shadow: 0 0 5px 0px #000;
+  border: none;
 }
 
-#banner #logo {
-    background: url('https://arma3.com/assets/img/logos/arma3.png');
+#logo {
+  color: #fff;
 }
 
 footer {
   color: #fff;
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 10px #000;
+  color: #d3d3d3;
+  font-weight: 300;
+}
+
+#banner .fork {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
 }
