@@ -7,15 +7,11 @@
 
 body {
   font-family: 'Titillium Web', sans-serif;
-  background: url('https://arma3.com/assets/img/bg/default.jpg') #000000;
+  background: url('../img/default.jpg') #000000;
 }
 
 header {
   background: none;
-}
-
-.wrapper > nav > ul {
-  background-color: rgba(0, 0, 0, 0.4);
 }
 
 nav ul li.tag-h1 a {

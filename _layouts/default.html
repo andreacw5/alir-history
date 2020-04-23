@@ -13,9 +13,11 @@
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <title>{{ page.title | default: site.title | default: site.github.repository_name }}</title>
+    <!-- Fontawesome alir-history kit -->
+    <script src="https://kit.fontawesome.com/bb31329f88.js" crossorigin="anonymous"></script>
+
     <!-- Favicon head tag -->
-    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
   </head>
   <body>
 
@@ -25,9 +27,18 @@
       </header>
 
       <div id="banner">
-        <span id="logo"></span>
+         <span id="logo"></span>
 
-        <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>
+         <a href="https://www.facebook.com/altislifeitaliareloaded/" class="button fork">
+             <i class="fab fa-facebook-square"></i>
+         </a>
+         <a href="https://www.instagram.com/alircommunity/" class="button fork">
+             <i class="fab fa-instagram"></i>
+         </a>
+          <a href="https://github.com/ALIRDev" class="button fork">
+              <i class="fab fa-github"></i>
+          </a>
+
       </div>
     <!-- end banner -->
 
@@ -41,9 +52,9 @@
       </section>
       <footer>
         {% if site.github.is_project_page %}
-          <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+          <p>Project by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a> with <i class="fas fa-heart" style="color: #e31b23"></i></p>
         {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></small></p>
+        <p><small>Hosted on GitHub Pages</small></p>
       </footer>
     </div>
 
