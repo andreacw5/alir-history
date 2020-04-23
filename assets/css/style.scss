@@ -11,7 +11,8 @@ body {
 }
 
 header {
-  background: none;
+  background-color: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 10px #000;
 }
 
 nav ul li.tag-h1 a {
@@ -39,7 +40,7 @@ section {
   font-weight: 300;
 }
 
-#banner .fork {
+#banner .social {
   color: #333;
   background-color: #e6e6e6;
   border: 1px solid #adadad;
