@@ -9,3 +9,28 @@ body {
   font-family: 'Titillium Web', sans-serif;
   background: url('https://arma3.com/assets/img/bg/default.jpg') #000000;
 }
+
+header {
+  background: none;
+}
+
+.wrapper > nav > ul {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.wrapper > nav > ul > li {
+  color: #fff;
+}
+
+#banner {
+  background-color: rgba(165, 165, 165, 0.2);
+  box-shadow: 0 0 5px 0px #000;
+}
+
+#banner #logo {
+    background: url('https://arma3.com/assets/img/logos/arma3.png');
+}
+
+footer {
+  color: #fff;
+}
